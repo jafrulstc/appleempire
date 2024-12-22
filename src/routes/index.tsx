@@ -1,12 +1,12 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
+import Header from "~/components/header/header";
+
 export default component$(() => {
   return (
     <>
-      <h1 class="text-3xl font-bold underline">
-        Hello World!
-      </h1>
+      <Header />
     </>
   );
 });
