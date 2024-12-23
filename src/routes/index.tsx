@@ -2,13 +2,11 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Header from "~/components/header/header";
-import Products from "~/components/products/products";
 
 export default component$(() => {
   return (
     <>
       <Header />
-      <Products />
     </>
   );
 });
