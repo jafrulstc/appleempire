@@ -1,15 +1,15 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import Footer from "~/components/footer/footer";
+import Header from "~/components/header/header";
+import Home from "~/components/home/home";
 
 export default component$(() => {
   return (
     <>
-      <h1>Hi 👋</h1>
-      <div>
-        Can't wait to see what you build with qwik!
-        <br />
-        Happy coding.
-      </div>
+    <Header />
+    <Home />
+    <Footer />
     </>
   );
 });
