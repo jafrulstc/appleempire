@@ -32,7 +32,7 @@ interface ProductType {
                         </div>
                     </div>
                     <div class="w-full uppercase grid grid-cols-2 gap-3
-                    lg:grid lg:grid-cols-2 lg:gap-2
+                    lg:grid lg:grid-cols-2 lg:gap-3
                     md:flex justify-start
                     xssm:flex xssm:justify-start
                     2xssm:flex 2xssm:flex-col 2xssm:items-center
@@ -40,7 +40,7 @@ interface ProductType {
                     ">
                         <button class="max-w-[100px] bg-bg_red_500 cursor-pointer text-co_white rounded px-1 py-2  active:bg-act_gray_400 active:text-act_white 
                             2lg:text-xs
-                            lg:text-[11px]
+                            lg:w-max lg:text-[11px] lg:px-2
                             md:w-[100px] md:text-[13px]
                             sm:text-[12px]
                             xssm:px-3
@@ -49,7 +49,7 @@ interface ProductType {
                             ">Add to Cart</button>
                         <button class="max-w-[80px] cursor-pointer  text-co_gray_400 rounded border border-solid border-bo_red_500 px-1 py-2   transition-all duration-200 ease-linear hover:bg-hov_red_500 hover:text-hoc_white
                             2lg:text-xs
-                            lg:text-[11px] lg:px-3
+                            lg:w-max lg:text-[11px] lg:px-2
                             md:max-w-[90px] md:px-3 md:text-[13px]
                             sm:px-1 sm:text-[12px]
                             xssm:px-2

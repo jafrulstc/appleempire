@@ -10,11 +10,10 @@ export default {
         "600": "600ms",
       },
       screens: {
-        "2lg": {"min": "1100"},
         "ssm": { "max": "768px"},
         "xssm": {"max": "517px"},
         "2xssm": {"max": "480px"},
-        "3xssm": {"max": "320px"},
+        "3xssm": {"max": "321px"},
         
       },
 
