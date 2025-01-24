@@ -50,6 +50,7 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
+    "serve": "^14.2.4",
     "swiper": "^11.2.1"
   }
 }
